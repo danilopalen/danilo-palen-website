@@ -1,0 +1,60 @@
+.dp {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  width: 280px;
+  height: 280px;
+}
+.dp-container {
+  filter: drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.5));
+  transition: ease-in 300ms;
+}
+.dp-container:hover {
+  filter: drop-shadow(10px 10px 7px rgba(0, 0, 0, 0.4));
+}
+.btn-hire {
+  border: 0;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  background: linear-gradient(90deg, #273c75, #00a8ff, #273c75);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 400ms;
+}
+.btn-hire:hover {
+  background-position: right;
+}
+.btn-show-more {
+  width: 250px;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  background: linear-gradient(90deg, #273c75, #00a8ff, #273c75);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 400ms;
+}
+.btn-show-more:hover {
+  background-position: right;
+}
+.col-grid {
+  display: grid;
+  padding: 20px;
+}
+.item-center {
+  margin: auto;
+}
+.laptopImg {
+  background-image: url(../img/danilopalen-laptop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
