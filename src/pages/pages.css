@@ -44,8 +44,9 @@
 .btn-show-more:hover {
   background-position: right;
 }
-.col-grid {
-  display: grid;
+.col-flex {
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
 .item-center {

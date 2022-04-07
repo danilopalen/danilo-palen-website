@@ -2,6 +2,7 @@ import React from "react";
 import Background from "../img/danilopalen.jpg";
 import "./pages.css";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -10,9 +11,14 @@ export default function Home() {
         <Col md="auto" className="col-grid">
           <div className="item-center">
             <h1>Hi👋 I'm Danilo Palen</h1>
-            <h4>I'm a Front End Developer 👨‍💻 and I create awesome websites</h4>
+            <h4 style={{ width: "600px" }}>
+              I'm a React Developer 👨‍💻 with commercial experience in Web and
+              Software Development
+            </h4>
             <p>#JavaScript #HTML #CSS #React</p>
-            <button className="btn-hire">Hire me</button>
+            <Link to="/contact" style={{ color: "#fff" }}>
+              <button className="btn-hire">Hire me</button>
+            </Link>
           </div>
         </Col>
         <Col md="auto" className="col-grid dp-container">
