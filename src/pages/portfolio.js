@@ -35,7 +35,7 @@ export default function Portfolio() {
               }}
             />
             <Card.Body>
-              <Card.Title>Calculator app</Card.Title>
+              <Card.Title>Login page</Card.Title>
               <Card.Text>#HTML #CSS #React #Firebase</Card.Text>
               <a target="_blank" href="https://simplelogindemo.netlify.app/">
                 <Button variant="primary">Visit site</Button>
@@ -53,7 +53,7 @@ export default function Portfolio() {
               }}
             />
             <Card.Body>
-              <Card.Title>Calculator app</Card.Title>
+              <Card.Title>Blog page</Card.Title>
               <Card.Text>#HTML #CSS #React #Firebase</Card.Text>
               <a target="_blank" href="https://simpleblogsite.netlify.app/">
                 <Button variant="primary">Visit site</Button>
