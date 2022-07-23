@@ -4,26 +4,48 @@ import calculator from "../img/calculator-1.png";
 import todolist from "../img/to-do-list.png";
 import simplelogindemo from "../img/simplelogindemo.netlify.app_.png";
 import simpleblogsite from "../img/simpleblogsite.netlify.app_.png";
-import "./pages.css";
+import sweetasmovers from "../img/sweetasmovers.png";
+import "./pages.scss";
 
 export default function Portfolio() {
   return (
-    <Container className="justify-content-md-center">
+    <Container
+      className="justify-content-md-center"
+      style={{ height: "auto", paddingBottom: "50px" }}
+    >
       <div
         style={{
           display: "flex",
           flexDirection: "column",
+          gap: "50px",
         }}
       >
         <div
           style={{
-            marginTop: "20px",
+            marginTop: "50px",
             display: "flex",
-            justifyContent: "center",
             flexWrap: "wrap",
-            gap: "40px",
+            gap: "50px",
           }}
         >
+          <Card style={{ width: "12rem", margin: "0 20px" }}>
+            <Card.Img
+              variant="top"
+              src={sweetasmovers}
+              style={{
+                objectFit: "cover",
+                height: "190px",
+                objectPosition: "center",
+              }}
+            />
+            <Card.Body>
+              <Card.Title>Business site</Card.Title>
+              <Card.Text>#HTML #CSS #React</Card.Text>
+              <a target="_blank" href="https://sweetasmovers.netlify.app/">
+                <Button variant="primary">Visit site</Button>
+              </a>
+            </Card.Body>
+          </Card>
           <Card style={{ width: "12rem", margin: "0 20px" }}>
             <Card.Img
               variant="top"
@@ -89,14 +111,13 @@ export default function Portfolio() {
         </div>
         <div
           style={{
-            margin: "40px 0 ",
             display: "flex",
             justifyContent: "center",
           }}
         >
-          <a target="_blank" href="https://codepen.io/danilopalen">
+          <a target="_blank" href="https://github.com/danilopalen">
             <button className="btn-show-more">
-              <span style={{ marginRight: "20px" }}>SHOW MORE</span> 👀
+              <span style={{ marginRight: "10px" }}>SHOW MORE</span> 👀
             </button>
           </a>
         </div>

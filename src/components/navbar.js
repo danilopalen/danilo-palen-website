@@ -12,9 +12,6 @@ export default function Nav() {
         <Link to="/portfolio">
           <Navbar.Brand>Portfolio</Navbar.Brand>
         </Link>
-        <Link to="/contact">
-          <Navbar.Brand>Contact</Navbar.Brand>
-        </Link>
       </Navbar>
     </>
   );
