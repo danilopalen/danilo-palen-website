@@ -10,7 +10,7 @@ export default function Nav() {
           <Navbar.Brand>Home</Navbar.Brand>
         </Link>
         <Link to="/portfolio">
-          <Navbar.Brand>Portfolio</Navbar.Brand>
+          <Navbar.Brand>Personal Projects</Navbar.Brand>
         </Link>
       </Navbar>
     </>
